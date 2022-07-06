@@ -1,3 +1,3 @@
 # blackjack
-Simple blackjack game - https://nathan-kennedy.github.io/Blackjack/
+Simple blackjack game - https://nathan-kennedy.github.io/blackjack/
 
