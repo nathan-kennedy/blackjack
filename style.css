@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display";
+    text-align: center;
+    background-image: url(/images/blackjack-table.webp);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.wrapper{
+    margin: 10vh auto;
+    height: 80vh;
+
+}
+.logo {
+    margin: 0 auto;
+    padding: 5vh 0 2vh 0;
+    display: block;
+    height: 30vh;
+}
+
+
+h1 {
+    color: goldenrod;
+    line-height: clamp(2.5rem, 1rem + 4vw, 4rem);
+    margin: 0 0 3rem 0;
+    font-weight: 700;
+    font-size: clamp(3rem, 2rem + 6vw, 5rem);
+}
+
+p {
+    color: azure;
+    font-size: clamp(1rem, .5rem + 4vw, 2rem);
+}
+
+#message-el {
+    letter-spacing: .03em;
+    font-style: italic;
+}
+
+#start-game {
+    margin: 0 auto;
+    display: block;
+    padding: 1em;
+    border: 0;
+    border-radius: 0 1em 0 1em;
+    font-family: "Fairplay Display";
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(15, 70, 8);
+    background-color: goldenrod;
+    width: 310px;
+    justify-self: center;
+}
+
+#start-game:hover {
+    background-color: rgb(193, 146, 29);
+}
+
+#start-game:active {
+    background-color: rgb(167, 126, 24);
+}
+#new-card {
+    margin: .4em auto;
+    display: block;
+    padding: 1em;
+    border: 0;
+    border-radius: 1em 0 1em 0;
+    font-family: "Fairplay Display";
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(15, 70, 8);
+    background-color: goldenrod;
+    width: 310px;
+    justify-self: center;
+}
+
+#new-card:hover {
+    background-color: rgb(193, 146, 29);
+}
+
+#new-card:active {
+    background-color: rgb(167, 126, 24);
+}
