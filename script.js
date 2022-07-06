@@ -49,8 +49,8 @@ function renderGame() {
         message = "You've got blackjack!";
     } else {
         isAlive = false;
-        message = "You've lost the hand";
+        message = "You've lost the hand.";
     }
     messageEl.textContent = message;
-    sumEl.textContent = "Sum: " + sum;
+    sumEl.textContent = "Total: " + sum;
 }
