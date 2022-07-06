@@ -68,6 +68,7 @@ p {
 #start-game:active {
     background-color: rgb(167, 126, 24);
 }
+
 #new-card {
     margin: .4em auto;
     display: block;
